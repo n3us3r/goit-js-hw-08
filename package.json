@@ -6,12 +6,12 @@
   "homepage": "https://n3us3r.github.io/goit-js-hw-08/",
   "scripts": {
     "dev": "parcel ./src/*.html",
-    "build": "parcel build ./src/*.html --public-url ./goit-js-hw-08/",
-    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+    "build": "parcel build ./src/*.html --public-url ./goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+	 
   },
   "keywords": [],
   "author": "Dmytro Platonov <dplatonov@op.pl>",
