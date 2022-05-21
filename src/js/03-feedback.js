@@ -43,6 +43,11 @@ function onPageLoad() {
 function onFormSubmit(e) {
 	e.preventDefault();
 
+if (e.currentTarget.email.value === '' || e.currentTarget.message.value === '') {
+	console.log("Please fill all fields");
+	return;
+}
+
 	const submitResult = {
 		[e.target.email.name]: e.target.email.value,
 		[e.target.message.name]: e.target.message.value 
